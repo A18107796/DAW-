@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/registroCss.css" rel="stylesheet" type="text/css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="jscript/registroJS.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="form">
+            <form>
+                <p class="contact"><label for="name">Nombre</label></p>
+                <input id="nombre" name="nombre" placeholder="Nombre y apellido" required="" tabindex="1" type="text">
+                <p class="contact"><label for="name">Correo</label></p>
+                <input id="email" name="email" placeholder="E-mail" required="" tabindex="2" type="email">
+                <p class="contact"><label for="name">IngreseUsuario</label></p>
+                <input id="usuario" name="usuario" placeholder="Usuario" required="" tabindex="3" type="text">
+                <p class="contact"><label for="name">Cree password</label></p>
+                <input id="contraseña" name="contraseña" placeholder="Contraseña" required="" tabindex="4" type="password">
+
+                <fieldset>
+                    <label>Cumpleaños:</label>
+                    <br>
+                    <select class="select-style" name="Mes" tabindex="5" id="mes">
+
+                        <option value="">Mes</option>
+                        <option value="01">Enero</option>
+                        <option value="02">Febrero</option>
+                        <option value="03">Marzo</option>
+                        <option value="04">Abril</option>
+                        <option value="05">Mayo</option>
+                        <option value="06">Junio</option>
+                        <option value="07">Julio</option>
+                        <option value="08">Agosto</option>
+                        <option value="09">Septiembre</option>
+                        <option value="10">Octubre</option>
+                        <option value="11">Noviembre</option>
+                        <option value="12">Diciembre</option>
+                    </select>
+                    <label>Dia: <input id="dia" class="birthday" maxlength="2" name="Dia" placeholder="Dia" required="" tabindex="6"></label>
+                    <label>Año: <input id="año" class="birthyear" maxlength="4" name="Año" placeholder="Año" required="" tabindex="7"></label>
+                </fieldset>
+                <select class="select-style gender" name="genero" tabindex="8" id="genero">
+                    <option value="">Soy</option>
+                    <option value="m">Hombre</option>
+                    <option value="f">Mujer</option>
+                    <option value="others">Otor</option>
+                </select>
+                <br><br>
+                <p class="contact"><label>Telefono Celular</label></p>
+                <input id="telefono" name="telefono" placeholder="Telefono Celular" required="" type="text" tabindex="8">
+                <br>
+                <input class="buttom" id="enviar" name="Submit" value="Registrar" type="submit" >
+
+            </form>
+
+        </div>
+    </body>
+</html>
