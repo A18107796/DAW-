@@ -14,8 +14,8 @@ $(document).ready(function (){
             alert("Seleccione mes válido");
             return false;
         }
-        if(genero == ''){
-            alert("Seleccione Genero");
+        if(genero == ''){   
+            alert("Seleccione  Genero");
             return false;
         }
         if(telefono.length < 8){
